@@ -1,0 +1,2125 @@
+<Style id="yellowStyle">
+  <IconStyle>
+    <scale>3.5</scale>
+    <Icon>
+      <href>https://raw.githubusercontent.com/Ssdosaofc/image-repo/refs/heads/main/glow.png</href>
+    </Icon>
+  </IconStyle>
+</Style>
+<Style id="dimStyle">
+  <IconStyle>
+    <scale>1.5</scale>
+    <Icon>
+      <href>https://raw.githubusercontent.com/Ssdosaofc/image-repo/refs/heads/main/dim.png</href>
+    </Icon>
+  </IconStyle>
+</Style>
+<Style id="spreadStyle">
+  <IconStyle>
+    <scale>3</scale>
+    <Icon>
+      <href>https://raw.githubusercontent.com/Ssdosaofc/image-repo/refs/heads/main/spread.png</href>
+    </Icon>
+  </IconStyle>
+</Style>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>76.83898452738286,30.11598535253733,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>79.26470334302735,24.60029712003459,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>83.61675403012215,19.719511685401354,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>78.2325873131122,9.446537544477396,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>77.27313670059698,33.52981195906046,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>81.04779881051951,18.899724418385723,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>71.44201039234908,24.140988181852553,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>85.72652833246828,21.239134327958382,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>81.02444765237594,18.53401207332321,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>77.7672914719105,34.70982844294194,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.36991533977499,20.478303026835622,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>74.2742322649307,24.405340385154545,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>88.49147845057317,23.597239101774235,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>70.0181654594527,21.549326840717484,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>77.16401490655201,31.98296322813687,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>92.90135234608918,25.50145598470832,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>80.86572938380803,18.90485051296209,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>73.24666324287162,22.385344099961586,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>90.2281526535138,26.724536452133833,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>72.6388376900822,27.919246393639245,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>88.2194892917713,23.10860651670118,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>75.78781899596676,26.140999345971238,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>75.60431105173379,18.194066006812122,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.9698198309948,20.16574036982972,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>82.92015665946168,19.442543197629107,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>84.49988372448698,22.721116276106592,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>93.65635563225558,25.731499123416143,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>79.937227074052,14.864830211217372,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>77.51221576093528,21.345871247734394,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>93.74453149419837,26.521252050630046,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>75.8963189858602,32.39839111925571,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>87.44124455073674,24.878850927014415,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>74.21356598830477,23.17130423574716,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>85.57715536872423,25.756002432927158,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>76.34985247686859,25.03136773130227,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>83.69491525135803,22.6421105520921,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>70.72546846950705,22.63558309901959,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>71.66574408090655,27.714377819843683,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>75.14824270615131,34.10931225434942,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>93.6952591504859,28.160777995040068,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>79.55514543726959,11.74344528622034,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>80.01215012195215,18.881907563907404,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>76.03662728017883,15.220662269122162,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>75.35013853731171,28.039577165758278,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>93.45933122672255,26.54110101452378,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>77.77983338709765,17.313963836213993,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.40036011476177,23.19418212053546,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>77.65440467886685,19.285238700197738,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.21876721787517,13.04142610850398,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>84.62422254965475,23.753148756041078,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>83.62395773876688,24.18102497106016,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>71.38243121678524,22.284685431969407,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>81.07697754892597,26.884383476420187,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>73.61057191252875,18.173984914013538,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>84.20090851782564,23.56937369058921,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>85.52559576002852,26.633928595925497,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.467089572226,21.709134857404273,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>74.30935992805601,17.690178741022912,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>82.46073868811013,18.482886807569614,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>82.36234169228975,17.966956658880555,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>76.58817154386112,29.217560637766713,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>77.87832139488478,19.15833858745725,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>83.57418640559305,25.859106713582797,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>74.46549432261381,32.91762799064295,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>80.38722343267835,19.522974434818906,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.72665183960554,33.77383595782898,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>75.63059097666307,31.52094025716742,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>70.40688379289978,23.5912095375357,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>86.63337036360258,25.9415015870097,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>73.43521646396142,21.647372272804777,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>70.47362773079824,28.007678334720506,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>71.16652502591164,26.379117865585666,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>81.47590375841386,24.282891664365476,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>82.69307387180399,26.564377525920644,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>71.47787112010703,22.51698649688662,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>85.83308439028534,20.473723384216928,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>76.78663062448928,31.727774329807275,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>73.60862213330157,17.423504268776984,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>74.96081035471039,16.821504504573728,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>73.16770409529731,25.69875962279853,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.56353879280262,10.476930245613994,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>75.62992294565777,20.36638947468865,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>93.70706746190459,27.496025026204933,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>72.48973856644517,27.264463115724134,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>75.13758986504368,27.03361541041854,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.81652316509148,10.263744690110546,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>72.30881068520333,22.703876810260553,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>78.68017299043568,25.03215146239047,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>84.62840318031213,23.170493498438336,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>85.20396383892422,26.532506546721738,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.92839058768365,24.12343156980196,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>79.98386223100387,25.28158528487476,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>70.75785999687041,22.082817770678155,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>75.76015884397191,12.896525886447233,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>83.45838027252853,19.866355136576814,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>83.46226435475378,22.33987020782361,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>74.35931390987255,22.010470415612772,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.2573828095316,23.161455550096555,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>83.72689811407224,18.41471986175163,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>77.64484279011693,9.67792141873122,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>73.0993706182467,29.079510529548077,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>77.861663959107,33.482105009379616,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>75.48576127701183,20.3747022723813,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.9502149069511,12.889951842028852,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>77.41651631185145,16.286636948316403,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>77.74327136560974,18.72357375863138,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>83.95839537842427,18.884132820431823,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>83.72202484130709,26.847646018675764,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>88.42454882729464,27.5361877175373,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>76.8372584336176,23.850404430322563,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>79.63521843774373,25.248615777303304,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>84.02597649266743,26.212513768784007,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>85.42529175516465,20.794269153237565,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>93.12792119556312,23.500835122685793,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>91.39617222918264,25.30780199372066,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>80.16370058726453,21.381757465985928,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>83.26202273986178,21.140907107238014,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>72.1347463500076,25.93844261948817,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>91.50650121488138,23.73929673149376,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>85.20613402215483,25.305158614051212,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>82.71631898372556,18.80899226673187,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.03051912908857,26.37090467873343,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>80.45091748846217,18.40654808433738,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>74.85162243827655,26.002464007423065,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>75.20634160275588,19.209028807001765,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.26866851924662,12.622225909094164,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>72.03270712370004,28.162551487562677,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>81.04818824813805,25.619895007615188,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>96.81777344718559,27.750300209459535,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>75.06054999643187,16.617143922112426,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.08836326023405,10.558554165948163,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>80.64275398766725,30.18641914898295,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>92.30387815107024,27.426700818982567,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>71.62899089624395,27.25646905516775,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>74.96165645299934,16.082346179108146,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>74.06945858698678,34.45910278548535,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>77.372354952875,32.55253472313721,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.80157103786253,28.910108837948403,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>76.56287550774142,29.83128934361101,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>86.47010934481884,20.962617659303774,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>87.47438650454099,23.467754305654694,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>73.21102200982189,23.656920632529644,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.47154165173038,12.07808026668667,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>86.96443303610717,23.87840304528173,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>85.39141983953427,20.77906395812176,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>79.05057078325522,17.762241090948635,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>73.75798886241212,29.646677971472233,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>75.3698508109326,30.334032597009497,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>71.3918817591322,21.324473973545615,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>72.01064743929776,23.63609708537659,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>77.63180440847384,18.541493806976305,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>80.67462001236296,21.9943188526403,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>76.26884593988503,16.87731238476038,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>73.93879847817259,27.964917238244507,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>82.72420402703078,19.339276836618758,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>77.6545356790744,21.6411285602587,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>82.7853628962544,17.811670773691525,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>74.0597406447191,16.110192061518724,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>77.36816669339075,13.748419794682082,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>74.72232769434169,20.313098827458994,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>77.30680990887736,9.845663186799857,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>76.98055452496745,32.61760086307086,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>85.30365179254856,24.992548235590498,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>83.77058600239717,19.429362607831052,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>74.44442619149982,26.780532446003104,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>78.83790284645117,15.725019934959166,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>72.19744429852656,21.63017347320735,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>84.612962761686,19.06602663472806,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>83.40591629527232,24.195463488129644,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>88.14459278379465,26.43259206081935,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>75.65835756586617,24.460430021933718,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>88.554521236272,26.52717619278555,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>81.09115961417307,21.345329154876477,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>70.54501810422217,27.314831373984887,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>76.77695506729984,15.657937521029222,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>92.4193666956933,23.686731129813957,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>80.59901207989755,25.494259369725413,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>76.98050766014194,16.603335553918363,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>84.76178248941036,19.36497512836324,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>77.58691611662957,23.18590880017205,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>79.31630656817894,30.84867573142238,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>79.12908248833757,14.110459121928598,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>80.38735887894921,21.25574545128972,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>78.44646881380494,29.992358724168607,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>93.12276768366885,26.79679228878836,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>76.45811017031255,29.980279907264237,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.1169155877537,13.931947386085277,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>82.91107352993349,21.547686614822666,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>83.1668699442726,23.52592750194257,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>93.67141219923653,28.556795817991937,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>75.40135575747831,28.008923045996298,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>73.2353817733711,17.61846081297482,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>81.89586775752262,23.40934806487237,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>77.44228265061032,9.60539713239384,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>81.53916175092135,24.817442259645347,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>71.57603135467495,22.980632733023985,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>74.51523371323626,15.278885356872593,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>72.37768019822886,25.021786506398325,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>82.23886251920887,18.190294182944672,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>73.09750912872448,18.44161019877999,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>76.1993662810329,30.30295161119679,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>88.28051128676375,22.370247639745457,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>93.09692636966585,26.35877926862424,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>75.71541183418849,13.634233161008108,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>75.11132130015035,20.40375021261478,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>85.62135906657625,23.229171404314314,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>89.01061858617882,22.067986596102863,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>83.99509340117507,19.769119596065174,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>94.3707750311306,28.995119805480346,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>91.25634472124554,26.732543560172996,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>93.8286954462292,28.080048305325,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>84.25497239186595,20.931008982554218,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>77.79088027111007,11.68873541821399,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>82.56124839137777,19.62135644710849,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>76.46788459133477,19.344303765679594,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>77.23055245967963,31.260898169641244,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>86.14039978625291,20.10255154054973,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.96184952014042,33.14414143521138,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>80.63268851865699,21.563952522717305,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>79.63980958774296,21.586508240089216,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>92.68789974999973,24.011622948408114,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.04418780170165,34.8358135053186,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>73.0832265847439,24.5797083987419,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>84.94753376849332,25.59290109823059,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>77.89194519802405,14.970158645033461,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>79.6608688767856,17.82384380239424,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.73960350179732,30.561305132961262,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.60050438347545,33.36717747895895,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>79.97118822373761,28.60036275897961,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>77.17877665575497,27.835902960532994,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>94.62022065729879,27.090605114050422,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>78.03861015337033,14.022139589626597,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>76.87798310449564,10.750528393283826,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>73.96428869957776,22.730119769224032,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>80.60932961476958,24.84388900317411,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>77.25916346115557,16.69468515060973,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.76013423903214,14.989170543208575,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>73.25092099102228,20.317400624103314,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>79.77537118964725,13.112500922474716,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>77.928511400728,28.87671068763218,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>76.30402206771225,26.171172646521995,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>79.55171002218665,23.354896996608367,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>73.25416356212882,18.5101984566013,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>80.23707623396407,28.44162573249459,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>77.06414462256782,13.354131638740895,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>75.36099606467513,16.427298453892227,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>92.86711780526134,24.343634241493724,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>77.27705762727706,17.554143420485378,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>70.84418355771395,22.093070053067116,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>78.97561297050494,18.617764287435723,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.51948529181966,13.394181738366857,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>84.80993223447446,20.633539956290875,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>73.21151183557184,22.581812797064114,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>86.29580203789365,24.943646299875663,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>77.01467212845621,24.82382398393311,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>86.06772495597836,21.660004638310426,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.08154355441707,20.820932727252156,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>73.96913374095013,18.610646784667363,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>72.59539052161264,23.7783978812073,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>81.74028092486631,27.53693522521409,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>76.03081735864981,21.375834753161463,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>78.38298462273727,26.546911507058798,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>73.05685715504985,28.513916450312376,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.15876254862242,19.139317660421128,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>94.17128178314218,24.44244151654194,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>73.19603637448901,23.390649038017067,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.93745106425871,26.889747466009602,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>78.56852909073721,28.800245978405595,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>71.93428810159254,21.704425202113214,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>75.39767199942241,27.74046300766508,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>79.38304094524017,14.074951739538951,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>80.72236027635464,16.831967694048906,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>79.05527260454527,33.27807285637836,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>92.63523631360314,23.23391175591392,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>74.6757082735106,26.26493026142716,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>79.21758109039561,23.017433193861372,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>73.24499969561151,23.502060077187416,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>76.80475345432386,16.230079170328793,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>79.1693071590631,27.482648880549316,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>75.52284142785783,33.636247483519824,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>72.8036263490113,28.864185175648615,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>81.38100397847802,27.43424620573692,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>90.27085368199644,26.851575893276145,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>75.01369299622596,22.599395944523415,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>79.16008113073565,17.67927504473402,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>71.87128134639862,23.28780876877007,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>93.5748827431022,26.410686913826783,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.0027438911857,22.342087726644266,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>75.70389103556064,17.71514104327988,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>92.17225807437023,26.641862614906742,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>79.50233678478587,10.57331935684358,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>74.82657693122546,21.602783807210223,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>78.10616931416375,20.957645881616678,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>73.21592243779179,17.971537468837923,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>75.32882142977188,25.830256243396253,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>74.73347192049043,26.18488951153574,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>80.17460779290298,29.507289224184845,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#spreadStyle</styleUrl>
+  <Point>
+    <coordinates>78.36978376701222,14.931253043160943,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#dimStyle</styleUrl>
+  <Point>
+    <coordinates>93.4088195882947,24.412969057135033,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name/>
+  <styleUrl>#yellowStyle</styleUrl>
+  <Point>
+    <coordinates>78.59032728947237,17.621986594832862,0</coordinates>
+  </Point>
+</Placemark>
+
