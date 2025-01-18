@@ -20,6 +20,7 @@ class _TextSheetState extends State<TextSheet> {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
     return LayoutBuilder(
       builder: (context, constraints) {
         return SingleChildScrollView(
@@ -31,7 +32,7 @@ class _TextSheetState extends State<TextSheet> {
               padding: EdgeInsets.symmetric(horizontal: 15,vertical: 15),
           decoration: BoxDecoration(
           borderRadius: BorderRadius.vertical(top: Radius.circular(26)),
-          color: Colors.grey[900],
+          color: isDark?Colors.grey[900]:Colors.white,
           ),
           child: Row(
             children: [
@@ -41,7 +42,7 @@ class _TextSheetState extends State<TextSheet> {
                 child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: 5),
                   child: TextField(
-                    style: TextStyle(fontSize: 18,color: Colors.white),
+                    style: TextStyle(fontSize: 18,color: isDark?Colors.white:Colors.black),
                     textInputAction: TextInputAction.go,
                     controller: query,
                     keyboardType: TextInputType.text,

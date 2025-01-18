@@ -25,11 +25,12 @@ class _Task1State extends State<Task1> {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
     return Scaffold(
-      backgroundColor: Colors.grey[900],
+      backgroundColor: isDark?Colors.grey[900]:Colors.white,
       appBar: AppBar(centerTitle:true,
         title: Text('Task 1',style: GoogleFonts.kanit(textStyle: TextStyle(fontWeight: FontWeight.bold,color: Colors.white)),),
-        backgroundColor:  Colors.grey[700],
+        backgroundColor: Colors.grey[700],
         shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.vertical(
               bottom: Radius.circular(25),
@@ -52,7 +53,7 @@ class _Task1State extends State<Task1> {
                   backgroundColor: MaterialStateProperty.resolveWith<Color?>(
                 (Set<MaterialState> states) {
 
-                return  Colors.grey[700];
+                return isDark?Colors.grey[700]:Colors.white;
                 }
                 ),
                 ),

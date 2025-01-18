@@ -54,8 +54,10 @@ class _Task6State extends State<Task6> with TickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
     return SafeArea(
         child:Scaffold(
+          backgroundColor: isDarkMode?Colors.black:Colors.white,
           appBar: AppBar(centerTitle:true,
             title: Text('Task 6',style: GoogleFonts.kanit(textStyle: TextStyle(fontWeight: FontWeight.bold,color: Colors.white)),),
             backgroundColor: Colors.grey[300],
@@ -75,7 +77,7 @@ class _Task6State extends State<Task6> with TickerProviderStateMixin {
                   color: Colors.grey[800],
                 borderRadius: BorderRadius.all(Radius.circular(24)),
                 boxShadow: [BoxShadow(
-                  color: Colors.grey.withOpacity(0.3),
+                  color: isDarkMode?Colors.grey.withOpacity(0.3):Colors.white.withOpacity(0.3),
                   offset: Offset(0, 20),
                   blurRadius: 20
                 )]

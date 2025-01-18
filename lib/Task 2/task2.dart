@@ -84,7 +84,7 @@ class _Task2State extends State<Task2> {
 
     return SafeArea(
       child: Scaffold(
-        backgroundColor: isDark?Colors.white:Colors.black,
+        backgroundColor: isDark?Colors.black:Colors.white,
         appBar: AppBar(
           centerTitle: true,
           title: Text(

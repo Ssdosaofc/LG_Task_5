@@ -115,12 +115,13 @@ class _BottomSheetDialogState extends State<BottomSheetDialog> {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
     return Container(
       height: 280,
       width: double.maxFinite,
       decoration: BoxDecoration(
           borderRadius: BorderRadius.vertical(top: Radius.circular(26)),
-        color: Colors.grey[900],
+        color: isDark?Colors.grey[900]:Colors.white,
       ),
       child: Column(
         children: [
@@ -129,7 +130,7 @@ class _BottomSheetDialogState extends State<BottomSheetDialog> {
             height: 5,
             width: 80,
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: isDark?Colors.white:Colors.black,
               borderRadius: BorderRadius.circular(5)
             ),
           ),
@@ -140,7 +141,7 @@ class _BottomSheetDialogState extends State<BottomSheetDialog> {
               _lastWords.isNotEmpty
                   ? _lastWords
                   : (_speechEnabled ? 'Listening...' : 'Not available in your Device'),
-              style: TextStyle(color: Colors.white,fontSize: 25,),
+              style: TextStyle(color: isDark?Colors.white:Colors.black,fontSize: 25,),
             textAlign: TextAlign.center,
           ),
           SizedBox(height: 60,),
