@@ -17,7 +17,7 @@ void main() {
   Gemini.init(
     apiKey:
     // const String.fromEnvironment('apiKey')
-    'AIzaSyDCFV71r01TxALzexSeUU2ipoSoK2NxI7U',
+    String.fromEnvironment('apiKey'),
     enableDebugging: true,
   );
   runApp(
@@ -84,6 +84,7 @@ class _Task2State extends State<Task2> {
 
     return SafeArea(
       child: Scaffold(
+        backgroundColor: isDark?Colors.white:Colors.black,
         appBar: AppBar(
           centerTitle: true,
           title: Text(
@@ -248,10 +249,9 @@ class _Task2State extends State<Task2> {
                       child:
                       ShaderMask(
                       blendMode: BlendMode.srcIn,
-                      shaderCallback: (bounds) => LinearGradient(colors: [
-                        Colors.pink.shade300,
-                        Colors.blue.shade700,
-                        ]).createShader(
+                      shaderCallback: (bounds) => LinearGradient(colors: isDark
+                          ? [Colors.pink.shade200, Colors.blue.shade400]
+                          : [Colors.pink.shade300, Colors.blue.shade700]).createShader(
                         Rect.fromLTWH(5, 5, bounds.width, bounds.height),
                         ),
             child: Text(
@@ -265,14 +265,14 @@ class _Task2State extends State<Task2> {
                 Container(
                   height: 85,
                   decoration: BoxDecoration(
-                    border: Border(top: BorderSide(color: Colors.grey)),
+                    border: Border(top: BorderSide(color: isDark?Colors.grey[300]!:Colors.grey)),
                   ),
                   child: Padding(
                     padding: EdgeInsets.all(10),
                     child: Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(50),
-                        border: Border.all(color: Colors.grey, width: 2),
+                        border: Border.all(color: isDark?Colors.grey[300]!:Colors.grey, width: 2),
                       ),
                       child: Container(
                         padding: EdgeInsets.all(5),
@@ -289,7 +289,7 @@ class _Task2State extends State<Task2> {
                                   alignment: Alignment.centerLeft,
                                   child: Text(
                                     'Ask Gemini',
-                                    style: TextStyle(fontSize: 15, color: Colors.grey[400]),
+                                    style: TextStyle(fontSize: 15, color: isDark?Colors.grey[200]!:Colors.grey[400]),
                                   ),
                                 ),
                               ),
@@ -298,7 +298,7 @@ class _Task2State extends State<Task2> {
                               height: double.maxFinite,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(46),
-                                color: Colors.grey[200],
+                                color: isDark?Colors.grey[200]!:Colors.grey[400],
                               ),
                               child: Row(
                                 children: [
@@ -308,7 +308,7 @@ class _Task2State extends State<Task2> {
                                         bottomNav(true, []);
                                       });
                                     },
-                                    icon: Icon(Icons.mic, size: 25),
+                                    icon: Icon(Icons.mic, size: 25,color: isDark?Colors.white:Colors.grey[900],),
                                   ),
                                   IconButton(
                                     onPressed: () async {

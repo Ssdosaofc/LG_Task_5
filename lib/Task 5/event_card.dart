@@ -11,12 +11,14 @@ class EventCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
     return Padding(
       padding: EdgeInsets.all(25.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(text,style: GoogleFonts.poppins(textStyle: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),)),
+          Text(text,style: GoogleFonts.poppins(textStyle: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,
+              color: isDarkMode ? Colors.white : Colors.black),)),
           Text(isPast? 'Completed':'In Progress'
               ,style: GoogleFonts.robotoCondensed(textStyle: TextStyle(color: isPast?Colors.blue:Colors.blueGrey))
           )
