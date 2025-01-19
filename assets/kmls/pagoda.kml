@@ -1,4 +1,3 @@
-
 <StyleMap id="m_ylw-pushpin">
     <Pair>
         <key>normal</key>
@@ -55,15 +54,15 @@
             <z>10.93213412907819</z>
         </Scale>
         <Link>
-            <href>dhauli.dae</href>
+            <href>https://raw.githubusercontent.com/Ssdosaofc/LG_Task_5/refs/heads/main/assets/kmls/dhauli.dae</href>
         </Link>
         <ResourceMap>
             <Alias>
-                <targetHref>concrete.png</targetHref>
+                <targetHref>https://raw.githubusercontent.com/Ssdosaofc/LG_Task_5/refs/heads/main/assets/kmls/marble.png</targetHref>
                 <sourceHref>concrete.png</sourceHref>
             </Alias>
             <Alias>
-                <targetHref>marble.png</targetHref>
+                <targetHref>https://raw.githubusercontent.com/Ssdosaofc/LG_Task_5/refs/heads/main/assets/kmls/marble.png</targetHref>
                 <sourceHref>marble.png</sourceHref>
             </Alias>
         </ResourceMap>
