@@ -159,7 +159,7 @@ class _BottomSheetDialogState extends State<BottomSheetDialog> {
                   return TextSheet();
                 });
               },
-              child: Icon(Icons.keyboard,color: Colors.grey[700],size: 30,)),
+              child: Icon(Icons.keyboard,color: isDark?Colors.grey[700]:Colors.grey[900],size: 30,)),
               SizedBox(width: 10,)
             ],
           ),

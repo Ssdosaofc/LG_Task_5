@@ -46,11 +46,11 @@ class _Task1State extends State<Task1> with TickerProviderStateMixin {
             style: GoogleFonts.kanit(
               textStyle: TextStyle(
                 fontWeight: FontWeight.bold,
-                color: isDarkMode ? Colors.white : Colors.black,
+                color: Colors.white ,
               ),
             ),
           ),
-          backgroundColor: isDarkMode ? Colors.grey[900] : Colors.grey[300],
+          backgroundColor: Colors.grey[300],
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.vertical(
               bottom: Radius.circular(25),
