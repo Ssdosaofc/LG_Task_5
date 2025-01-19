@@ -268,14 +268,14 @@ class _Task2State extends State<Task2> {
                 Container(
                   height: 85,
                   decoration: BoxDecoration(
-                    border: Border(top: BorderSide(color: isDark?Colors.grey[300]!:Colors.grey)),
+                    border: Border(top: BorderSide(color: isDark?Colors.grey[600]!:Colors.grey)),
                   ),
                   child: Padding(
                     padding: EdgeInsets.all(10),
                     child: Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(50),
-                        border: Border.all(color: isDark?Colors.grey[300]!:Colors.grey, width: 2),
+                        border: Border.all(color: isDark?Colors.grey[500]!:Colors.grey, width: 2),
                       ),
                       child: Container(
                         padding: EdgeInsets.all(5),
@@ -292,7 +292,7 @@ class _Task2State extends State<Task2> {
                                   alignment: Alignment.centerLeft,
                                   child: Text(
                                     'Ask Gemini',
-                                    style: TextStyle(fontSize: 15, color: isDark?Colors.grey[200]!:Colors.grey[400]),
+                                    style: TextStyle(fontSize: 15, color: isDark?Colors.grey[500]!:Colors.grey[400]),
                                   ),
                                 ),
                               ),
@@ -301,7 +301,7 @@ class _Task2State extends State<Task2> {
                               height: double.maxFinite,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(46),
-                                color: isDark?Colors.grey[200]!:Colors.grey[400],
+                                color: isDark?Colors.grey[700]!:Colors.grey[300],
                               ),
                               child: Row(
                                 children: [
@@ -311,7 +311,7 @@ class _Task2State extends State<Task2> {
                                         bottomNav(true, []);
                                       });
                                     },
-                                    icon: Icon(Icons.mic, size: 25,color: isDark?Colors.white:Colors.grey[900],),
+                                    icon: Icon(Icons.mic, size: 25,color: isDark?Colors.grey[400]:Colors.grey[800],),
                                   ),
                                   IconButton(
                                     onPressed: () async {
@@ -327,7 +327,7 @@ class _Task2State extends State<Task2> {
                                         );
                                       }
                                     },
-                                    icon: Icon(Icons.camera_alt, size: 25),
+                                    icon: Icon(Icons.camera_alt, size: 25,color: isDark?Colors.grey[400]:Colors.grey[800],),
                                   ),
                                 ],
                               ),

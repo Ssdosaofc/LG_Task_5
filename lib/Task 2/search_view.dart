@@ -194,6 +194,7 @@ class _SearchViewState extends State<SearchView> {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
     return LayoutBuilder(builder: (context, constraints){
       return SingleChildScrollView(
             reverse: true,
@@ -246,7 +247,7 @@ class _SearchViewState extends State<SearchView> {
                       // autofocus: autofocus,
                       focusNode: textFieldFocusNode,
                       maxLines: 5,
-                      style: TextStyle(fontSize: 25,color: Colors.black),
+                      style: TextStyle(fontSize: 25,color: isDark?Colors.white:Colors.black),
                       textInputAction: TextInputAction.go,
                       controller: query,
                       keyboardType: TextInputType.text,

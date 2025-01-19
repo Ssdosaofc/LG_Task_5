@@ -50,7 +50,7 @@ class _Task1State extends State<Task1> with TickerProviderStateMixin {
               ),
             ),
           ),
-          backgroundColor: Colors.grey[300],
+          backgroundColor: Colors.grey[800],
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.vertical(
               bottom: Radius.circular(25),

@@ -63,7 +63,7 @@ class _Task6State extends State<Task6> with TickerProviderStateMixin {
           backgroundColor: isDarkMode?Colors.black:Colors.white,
           appBar: AppBar(centerTitle:true,
             title: Text('Task 6',style: GoogleFonts.kanit(textStyle: TextStyle(fontWeight: FontWeight.bold,color: Colors.white)),),
-            backgroundColor: Colors.grey[300],
+            backgroundColor: Colors.grey[800],
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.vertical(
                   bottom: Radius.circular(25),
@@ -80,8 +80,8 @@ class _Task6State extends State<Task6> with TickerProviderStateMixin {
                   color: Colors.grey[800],
                 borderRadius: BorderRadius.all(Radius.circular(24)),
                 boxShadow: [BoxShadow(
-                  color: isDarkMode?Colors.grey.withOpacity(0.3):Colors.white.withOpacity(0.3),
-                  offset: Offset(0, 20),
+                  color: isDarkMode?Colors.grey.withOpacity(0.3):Colors.black.withOpacity(0.3),
+                  offset: Offset(0, 10),
                   blurRadius: 20
                 )]
               ),

@@ -22,10 +22,12 @@ class Task5 extends StatefulWidget {
 class _Task5State extends State<Task5> {
   @override
   Widget build(BuildContext context) {
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
     return Scaffold(
+      backgroundColor: isDarkMode?Colors.grey[900]:Colors.white,
       appBar: AppBar(centerTitle:true,
         title: Text('Task 5',style: GoogleFonts.kanit(textStyle: TextStyle(fontWeight: FontWeight.bold,color: Colors.white)),),
-        backgroundColor: Colors.grey[300],
+        backgroundColor: Colors.grey[800],
         shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.vertical(
               bottom: Radius.circular(25),
