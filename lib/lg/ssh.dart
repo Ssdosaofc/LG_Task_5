@@ -58,42 +58,6 @@ class Ssh{
     }
   }
 
-  Future<SSHSession?> sendOverlay(String fileName
-      ,LookAt flyto) async{
-    try{
-      if(_client == null){
-        print('SSH Client not initialized');
-        return null;
-      }
-
-      await initConnectionDetails();
-
-      final sftp = await _client!.sftp();
-      final file = await sftp.open('/var/www/html/$fileName.kml',
-          mode: SftpFileOpenMode.create |
-          SftpFileOpenMode.truncate |
-          SftpFileOpenMode.write);
-
-      String kml = await rootBundle.loadString('assets/kmls/$fileName.kml');
-
-      KMLEntity kmlEntity = KMLEntity(name: 'Logos', content: '',screenOverlay: kml);
-
-      var bytes = utf8.encode(kmlEntity.body);
-
-      file.writeBytes(bytes);
-
-      await _client!.execute('echo "$_url/$fileName.kml" > /var/www/html/kmls.txt');
-
-      final execResult = await _client!.execute('echo "flytoview=${flyto.generateLinearString()})}" > /tmp/query.txt');
-
-      return execResult;
-    }
-    catch(e){
-      print("Error occured: $e");
-      return null;
-    }
-  }
-
   Future<SSHSession> sendKml(String fileName
       ,LookAt flyto
       ) async {
@@ -105,9 +69,6 @@ class Ssh{
         SftpFileOpenMode.write);
 
     String kmlContent = await rootBundle.loadString('assets/kmls/$fileName.kml');
-
-    // final inputFile = File('assets/kmls/$fileName.kml');
-    // var bytes = await inputFile.readAsBytes();
 
     KMLEntity kmlEntity = KMLEntity(name: fileName, content: kmlContent);
 
@@ -122,30 +83,6 @@ class Ssh{
     final execResult = await _client!.execute('echo "flytoview=${flyto.generateLinearString()})}" > /tmp/query.txt');
 
     return execResult;
-  }
-
-  Future<SSHSession?> clearLogo() async{
-    try{
-      if(_client == null){
-        print('SSH Client not initialized');
-        return null;
-      }
-
-      await initConnectionDetails();
-      int leftRig = (int.parse(_numberOfRigs) / 2).floor() + 2;
-
-      String kml = KMLEntity.generateBlank('$leftRig');
-
-      final execResult = await _client!.execute(
-          "echo '$kml' > /var/www/html/kml/slave_$leftRig.kml");
-      print("Result: echo '$kml' > /var/www/html/kml/slave_$leftRig.kml");
-
-      return execResult;
-    }
-    catch(e){
-      print("Error occured: $e");
-      return null;
-    }
   }
 
   Future<SSHSession?> clearKml() async{
