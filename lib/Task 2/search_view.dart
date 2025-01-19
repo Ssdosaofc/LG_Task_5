@@ -274,11 +274,12 @@ class _SearchViewState extends State<SearchView> {
                         if(voiceEnabled)
                           IconButton(onPressed: (){
                             setState(() {
-                              listen();
-                              stopAnimation();
+                              setState(() {
+                                voiceEnabled = false;
+                                textFieldFocusNode.requestFocus();
+                              });
                               // autofocus = true;
                             });
-                            textFieldFocusNode.requestFocus();
                           }, icon: Icon(Icons.keyboard,size: 30,)),
                         SizedBox(width: 10),
                         voiceEnabled?
