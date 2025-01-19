@@ -8,6 +8,9 @@ import 'package:speech_to_text/speech_to_text.dart';
 void main(){
   runApp(
     MaterialApp(
+      theme: ThemeData.light(),
+      darkTheme: ThemeData.dark(),
+      themeMode: ThemeMode.system,
       home: Task1(),
     )
   );
@@ -65,7 +68,7 @@ class _Task1State extends State<Task1> {
               child: Image.asset('assets/images/Google_mic.svg.png'))),
             ),
             SizedBox(height: 15,),
-            Text('Tap the microphone',style: TextStyle(fontSize: 20,color: Colors.white),)
+            Text('Tap the microphone',style: TextStyle(fontSize: 20,color: isDark?Colors.white:Colors.black),)
           ],
         ),
       ),

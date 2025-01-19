@@ -5,6 +5,9 @@ import 'package:rive/rive.dart';
 
 void main() {
   runApp(MaterialApp(
+    theme: ThemeData.light(),
+    darkTheme: ThemeData.dark(),
+    themeMode: ThemeMode.system,
     home: Task6(
     ),
   ));

@@ -4,16 +4,9 @@ import 'package:liquid_galaxy_task_5/Task%205/timeline_tile.dart';
 
 void main() {
   runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    themeMode: ThemeMode.dark,
-    darkTheme: ThemeData(
-      colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey),
-      useMaterial3: true,
-    ),
-    theme: ThemeData(
-      colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey),
-      useMaterial3: true,
-    ),
+    theme: ThemeData.light(),
+    darkTheme: ThemeData.dark(),
+    themeMode: ThemeMode.system,
     home: Task5(
     ),
   ));
