@@ -76,7 +76,6 @@ flutter:
   assets:
      - assets/RiveAssets/
      - assets/images/
-     - assets/kmls/
      - assets/config/config.json
      - assets/anims/
   #   - images/a_dot_ham.jpeg
