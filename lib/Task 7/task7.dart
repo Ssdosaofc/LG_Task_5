@@ -6,18 +6,18 @@ void main() {
     theme: ThemeData.light(),
     darkTheme: ThemeData.dark(),
     themeMode: ThemeMode.system,
-    home: Task1(),
+    home: Task7(),
   ));
 }
 
-class Task1 extends StatefulWidget {
-  const Task1({super.key});
+class Task7 extends StatefulWidget {
+  const Task7({super.key});
 
   @override
-  State<Task1> createState() => _Task1State();
+  State<Task7> createState() => _Task7State();
 }
 
-class _Task1State extends State<Task1> with TickerProviderStateMixin {
+class _Task7State extends State<Task7> with TickerProviderStateMixin {
   late TabController _tabController;
 
   @override
