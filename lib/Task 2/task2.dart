@@ -184,7 +184,7 @@ class _Task2State extends State<Task2> {
                                 height: 30,
                                 decoration: BoxDecoration(
                                   shape: BoxShape.circle,
-                                  color: Colors.white,
+                                  color: isDark?Colors.black:Colors.white,
                                   image: DecorationImage(
                                     fit: BoxFit.fill,
                                     image: AssetImage('assets/images/gemini.png'),
