@@ -1,4 +1,6 @@
+import 'dart:async';
 import 'dart:io';
+import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
@@ -10,6 +12,7 @@ import 'package:markdown_widget/widget/blocks/container/list.dart';
 import 'package:markdown_widget/widget/blocks/leaf/code_block.dart';
 import 'package:markdown_widget/widget/blocks/leaf/paragraph.dart';
 import 'package:markdown_widget/widget/markdown.dart';
+import 'package:morphable_shape/morphable_shape.dart';
 
 import 'code_wrapper.dart';
 
@@ -39,7 +42,7 @@ class Task2 extends StatefulWidget {
   State<Task2> createState() => _Task2State();
 }
 
-class _Task2State extends State<Task2> {
+class _Task2State extends State<Task2> with SingleTickerProviderStateMixin{
 
   var question = '';
   var answer = '';
@@ -68,13 +71,102 @@ class _Task2State extends State<Task2> {
     }
   }
 
+  final starShapes = [
+    StarShapeBorder(
+      corners: 6,
+      inset: 11.6953125.toPercentLength,
+      cornerRadius: (231.2508167053851 * 0.1667).toPXLength,
+      insetRadius: 0.toPXLength,
+      cornerStyle: CornerStyle.rounded,
+      insetStyle: CornerStyle.rounded,
+    ),
+    StarShapeBorder(
+      corners: 6,
+      inset: 12.6.toPercentLength,
+      cornerRadius: (60 * 0.1667).toPXLength,
+      insetRadius: (160 * 0.1667).toPXLength,
+      cornerStyle: CornerStyle.rounded,
+      insetStyle: CornerStyle.rounded,
+    ),
+    StarShapeBorder(
+      corners: 6,
+      inset: 26.406250000000075.toPercentLength,
+      cornerRadius: (0 * 0.1667).toPXLength,
+      insetRadius: (0 * 0.1667).toPXLength,
+      cornerStyle: CornerStyle.rounded,
+      insetStyle: CornerStyle.rounded,
+    ),
+    StarShapeBorder(
+      corners: 6,
+      inset: 30.44002474993097.toPercentLength,
+      cornerRadius: (86.54205560062454 * 0.1667).toPXLength,
+      insetRadius: (55.23216904049404 * 0.1667).toPXLength,
+      cornerStyle: CornerStyle.rounded,
+      insetStyle: CornerStyle.rounded,
+    ),
+    StarShapeBorder(
+      corners: 6,
+      inset: 30.toPercentLength,
+      cornerRadius: (206.3 * 0.1667).toPXLength,
+      insetRadius: (5.7 * 0.1667).toPXLength,
+      cornerStyle: CornerStyle.rounded,
+      insetStyle: CornerStyle.rounded,
+    ),
+  ];
+
+
+  late AnimationController _controller;
+  late Animation _progressAnimation;
+  late MorphableShapeBorderTween _shapeTween;
+  int _currentIndex = 0;
+
+  void _setNextTween() {
+    final beginShape = starShapes[_currentIndex];
+    final endShape = starShapes[(_currentIndex + 1) % starShapes.length];
+    _shapeTween = MorphableShapeBorderTween(begin: beginShape, end: endShape);
+  }
+
+  Timer? _timer;
+  // Timer? loadTimer;
+  ValueNotifier<double> listenable = ValueNotifier(0.0);
+
   @override
   void initState() {
     super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: Duration(seconds: 1),
+    );
+
+    Animation<double> curve = CurvedAnimation(parent: _controller, curve: Curves.easeInOutCubic);
+
+    _progressAnimation = Tween(begin: 0.0, end: 1.0).animate(curve);
+    ;
+
+    _setNextTween();
+
+    _controller.addStatusListener((status) {
+      if (status == AnimationStatus.completed) {
+        setState(() {
+          _currentIndex = (_currentIndex + 1) % starShapes.length;
+          _setNextTween();
+        });
+        _controller.forward(from: 0);
+      }
+    });
+
+    _controller.forward();
+
+    listenable.value = Random().nextDouble()*10;
+
+    _timer = Timer.periodic(const Duration(milliseconds: 100), (_) {
+      listenable.value += 0.01;
+    });
   }
 
   @override
   void dispose() {
+    _controller.dispose();
     super.dispose();
   }
 
@@ -249,18 +341,54 @@ class _Task2State extends State<Task2> {
                     child: Padding(
                       padding: EdgeInsets.all(10),
                       child:
-                      ShaderMask(
-                      blendMode: BlendMode.srcIn,
-                      shaderCallback: (bounds) => LinearGradient(colors: isDark
-                          ? [Colors.pink.shade200, Colors.blue.shade400]
-                          : [Colors.pink.shade300, Colors.blue.shade700]).createShader(
-                        Rect.fromLTWH(5, 5, bounds.width, bounds.height),
-                        ),
-            child: Text(
-              'Ask Gemini',
-              style: TextStyle(fontWeight: FontWeight.w500, fontSize: 50,),
-            ),
-            ),
+                      Stack(
+                        alignment: AlignmentDirectional.center,
+                        children: [
+                          ValueListenableBuilder(
+                            valueListenable: listenable,
+                            builder: (BuildContext context, value, Widget? child) {
+                              return AnimatedRotation(
+                                turns: value,
+                                duration: const Duration(milliseconds: 100),
+                                child: ShaderMask(
+                                    blendMode: BlendMode.srcIn,
+                                    shaderCallback: (bounds) => LinearGradient(
+                                        colors:
+                                        [Colors.purpleAccent,Colors.blueAccent,]).createShader(
+                                      Rect.fromLTWH(5, 5, bounds.width, bounds.height),
+                                    ),
+                                    child:
+                                    // Text(
+                                    //   'Ask Gemini',
+                                    //   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 50,),
+                                    // ),
+                                    AnimatedBuilder(animation: _progressAnimation,
+                                        builder: (BuildContext context, Widget? child){
+                                          double t = _progressAnimation.value;
+                                          return Center(
+                                              child: DecoratedShadowedShape(
+                                                decoration:
+                                                BoxDecoration(color: Colors.amberAccent),
+                                                shape: _shapeTween.lerp(t),
+                                                child: Container(
+                                                  width: 100,
+                                                  height: 100,
+                                                ),
+                                              ));
+                                        })
+                                ),
+                              );
+                            },
+                          ),
+
+                          Container(
+                            height: 50,
+                            width: 50,
+                            child: Image(image: AssetImage('assets/images/gemini.png'),color: Colors.white,),
+
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 ),
@@ -346,3 +474,5 @@ class _Task2State extends State<Task2> {
   }
 
 }
+
+
