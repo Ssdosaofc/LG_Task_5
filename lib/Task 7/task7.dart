@@ -69,10 +69,11 @@ class _Task7State extends State<Task7> with TickerProviderStateMixin {
                   labelColor: isDarkMode ? Colors.white : Colors.black,
                   unselectedLabelColor:
                   isDarkMode ? Colors.grey[700] : Colors.grey[300],
-                  indicator: CircleTabIndicator(
-                    color: isDarkMode ? Colors.white : Colors.grey,
-                    radius: 3,
-                  ),
+                  // indicator: CircleTabIndicator(
+                  //   color: isDarkMode ? Colors.white : Colors.grey,
+                  //   radius: 3,
+                  // ),
+                  indicatorColor: isDarkMode ? Colors.white : Colors.black,
                   tabs: [
                     Tab(text: "Home"),
                     Tab(text: "Maps"),
@@ -137,27 +138,27 @@ class _Task7State extends State<Task7> with TickerProviderStateMixin {
   }
 }
 
-class CircleTabIndicator extends Decoration {
-  final Color? color;
-  double radius;
-
-  CircleTabIndicator({required this.color, required this.radius});
-  @override
-  BoxPainter createBoxPainter([VoidCallback? onChanged]) {
-    return _CirclePainter(color: color, radius: radius);
-  }
-}
-
-class _CirclePainter extends BoxPainter {
-  final Color? color;
-  double radius;
-
-  _CirclePainter({required this.color, required this.radius});
-  @override
-  void paint(Canvas canvas, Offset offset, ImageConfiguration cfg) {
-    final paint = Paint()..color = color!..isAntiAlias = true;
-    final Offset circleOffset =
-        offset + Offset(cfg.size!.width / 2, cfg.size!.height - radius);
-    canvas.drawCircle(circleOffset, radius, paint);
-  }
-}
+// class CircleTabIndicator extends Decoration {
+//   final Color? color;
+//   double radius;
+//
+//   CircleTabIndicator({required this.color, required this.radius});
+//   @override
+//   BoxPainter createBoxPainter([VoidCallback? onChanged]) {
+//     return _CirclePainter(color: color, radius: radius);
+//   }
+// }
+//
+// class _CirclePainter extends BoxPainter {
+//   final Color? color;
+//   double radius;
+//
+//   _CirclePainter({required this.color, required this.radius});
+//   @override
+//   void paint(Canvas canvas, Offset offset, ImageConfiguration cfg) {
+//     final paint = Paint()..color = color!..isAntiAlias = true;
+//     final Offset circleOffset =
+//         offset + Offset(cfg.size!.width / 2, cfg.size!.height - radius);
+//     canvas.drawCircle(circleOffset, radius, paint);
+//   }
+// }
