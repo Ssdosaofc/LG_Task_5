@@ -16,8 +16,7 @@ import 'code_wrapper.dart';
 void main() {
   Gemini.init(
     apiKey:
-    // const String.fromEnvironment('apiKey')
-    'AIzaSyDCFV71r01TxALzexSeUU2ipoSoK2NxI7U',
+    const String.fromEnvironment('apiKey'),
     enableDebugging: true,
   );
   runApp(
@@ -135,10 +134,10 @@ class _Task2State extends State<Task2> {
                                     bottomLeft: Radius.circular(30),
                                     bottomRight: Radius.circular(30),
                                   ),
-                                  color: Colors.grey[400],
+                                  color: Colors.grey[600],
                                 ),
                                 width: (MediaQuery.of(context).size.width - 50),
-                                padding: EdgeInsets.all(10),
+                                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
                                 child: MarkdownWidget(
                                   data: question,
                                   config: config.copy(
@@ -174,7 +173,7 @@ class _Task2State extends State<Task2> {
                               ),
                             ],
                           ),
-                          SizedBox(height: 20),
+                          SizedBox(height: 10),
                           Row(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.start,
@@ -194,9 +193,9 @@ class _Task2State extends State<Task2> {
                               SizedBox(width: 10),
                               Column(
                                 children: [
-                                  SizedBox(height: 10,),
+                                  SizedBox(height: 15,),
                                   Container(
-                                    padding: EdgeInsets.all(20),
+                                    padding: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.only(
                                         topRight: Radius.circular(30),

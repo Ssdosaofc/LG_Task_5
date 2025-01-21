@@ -20,7 +20,7 @@ class SearchView extends StatefulWidget {
   State<SearchView> createState() => _SearchViewState();
 }
 
-class _SearchViewState extends State<SearchView> {
+class _SearchViewState extends State<SearchView> with SingleTickerProviderStateMixin{
 
 
   final TextEditingController query = TextEditingController();
@@ -37,10 +37,17 @@ class _SearchViewState extends State<SearchView> {
   String onStatus='';
 
   Timer? _timer;
+  // Timer? loadTimer;
   ValueNotifier<double> listenable = ValueNotifier(0.0);
+  // ValueNotifier<double> loadingListenable = ValueNotifier(0.0);
 
   final gemini = Gemini.instance;
   var _result = '';
+
+  late final AnimationController _controller;
+  late final Animation<double> _scaleAnimation;
+  late final Animation<double> _rotationAnimation;
+
 
   @override
   void initState() {
@@ -55,6 +62,23 @@ class _SearchViewState extends State<SearchView> {
       textFieldFocusNode.requestFocus();
     }
     listOfImgs = widget.listOfImgs.isNotEmpty ? widget.listOfImgs : [];
+
+    // loadingListenable.value = Random().nextDouble()*10;
+    // loadTimer = Timer.periodic(const Duration(milliseconds: 100), (_) {
+    //   loadingListenable.value += 0.2;
+    // });
+
+    _controller = AnimationController(
+      duration: const Duration(seconds: 2),
+      vsync: this,
+    )..repeat();
+
+    _scaleAnimation = TweenSequence([
+      TweenSequenceItem(tween: Tween(begin: 1.0, end: 0.0), weight: 50),
+      TweenSequenceItem(tween: Tween(begin: 0.0, end: 1.0), weight: 50),
+    ]).animate(_controller);
+
+    _rotationAnimation = Tween(begin: 0.0, end: 1.0).animate(_controller);
 
     print(String.fromEnvironment('apiKey'));
     print('voiceEnabled: $voiceEnabled');
@@ -350,10 +374,12 @@ class _SearchViewState extends State<SearchView> {
                             await _onSubmitQuestion(query.text, listOfImgs.isNotEmpty, listOfImgs);
                           },
                           icon: _isLoading
-                              ? Lottie
-                              .asset(
-                            'assets/anims/gemini.json',
-                            width: 30,height: 30,repeat: true
+                              ?
+                          // Lottie.asset('assets/anims/gemini.json', width: 30,height: 30,repeat: true)
+                          RotationTransition(turns: _rotationAnimation,
+                            child: ScaleTransition(scale: _scaleAnimation,
+                              child: Lottie.asset('assets/anims/gemini.json', width: 30,height: 30,repeat: true),
+                            ),
                           )
                               : Icon(Icons.send, size: 30),
                         ),

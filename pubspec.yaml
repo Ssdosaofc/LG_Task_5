@@ -43,7 +43,6 @@ dependencies:
   url_launcher: ^6.3.1
   fluttertoast: ^8.2.1
   flutter_gemini: ^3.0.0
-  dartssh2: ^2.8.2
   shared_preferences: ^2.3.5
   google_fonts: ^6.2.1
   markdown_widget: ^2.3.2+6
