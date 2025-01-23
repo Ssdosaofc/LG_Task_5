@@ -20,7 +20,6 @@ void main() {
   Gemini.init(
     apiKey:
     const String.fromEnvironment('apiKey'),
-    // 'AIzaSyDCFV71r01TxALzexSeUU2ipoSoK2NxI7U',
     enableDebugging: true,
   );
   runApp(
