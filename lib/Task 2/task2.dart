@@ -42,7 +42,7 @@ class Task2 extends StatefulWidget {
   State<Task2> createState() => _Task2State();
 }
 
-class _Task2State extends State<Task2> with SingleTickerProviderStateMixin{
+class _Task2State extends State<Task2> with TickerProviderStateMixin{
 
   var question = '';
   var answer = '';
@@ -120,6 +120,7 @@ class _Task2State extends State<Task2> with SingleTickerProviderStateMixin{
   late MorphableShapeBorderTween _shapeTween;
   int _currentIndex = 0;
 
+
   void _setNextTween() {
     final beginShape = starShapes[_currentIndex];
     final endShape = starShapes[(_currentIndex + 1) % starShapes.length];
@@ -127,21 +128,39 @@ class _Task2State extends State<Task2> with SingleTickerProviderStateMixin{
   }
 
   Timer? _timer;
-  // Timer? loadTimer;
   ValueNotifier<double> listenable = ValueNotifier(0.0);
 
+  bool onHover = false;
+  bool hasZoomed = false;
+  late Animation _scaleAnimation;
+  late AnimationController _scaleController;
+  late Animation _rotateAnimation;
+  late AnimationController _rotateController;
   @override
   void initState() {
     super.initState();
+
     _controller = AnimationController(
       vsync: this,
       duration: Duration(seconds: 1),
     );
+    _scaleController = AnimationController(
+      vsync: this,
+      duration: Duration(seconds: 1),
+      reverseDuration: Duration(milliseconds: 500)
+    );
+    _rotateController = AnimationController(
+      vsync: this,
+      duration: Duration(seconds: 1),
+      reverseDuration: Duration(milliseconds: 500)
+    );
 
-    Animation<double> curve = CurvedAnimation(parent: _controller, curve: Curves.easeInOutCubic);
-
-    _progressAnimation = Tween(begin: 0.0, end: 1.0).animate(curve);
-    ;
+    _progressAnimation = Tween(begin: 0.0, end: 1.0)
+        .animate(CurvedAnimation(parent: _controller, curve: Curves.easeInOutCubic));
+    _scaleAnimation = Tween(begin: 0.0, end: 1.0)
+        .animate(CurvedAnimation(parent: _scaleController, curve: Curves.easeInOut, reverseCurve: Curves.easeInOut));
+    _rotateAnimation = Tween(begin: 0.0, end: 360.0)
+        .animate(CurvedAnimation(parent: _rotateController, curve: Curves.easeInOut, reverseCurve: Curves.easeInOut));
 
     _setNextTween();
 
@@ -167,6 +186,7 @@ class _Task2State extends State<Task2> with SingleTickerProviderStateMixin{
   @override
   void dispose() {
     _controller.dispose();
+    _scaleController.dispose();
     super.dispose();
   }
 
@@ -344,49 +364,80 @@ class _Task2State extends State<Task2> with SingleTickerProviderStateMixin{
                       Stack(
                         alignment: AlignmentDirectional.center,
                         children: [
-                          ValueListenableBuilder(
-                            valueListenable: listenable,
-                            builder: (BuildContext context, value, Widget? child) {
-                              return AnimatedRotation(
-                                turns: value,
-                                duration: const Duration(milliseconds: 100),
-                                child: ShaderMask(
-                                    blendMode: BlendMode.srcIn,
-                                    shaderCallback: (bounds) => LinearGradient(
-                                        colors:
-                                        [Colors.purpleAccent,Colors.blueAccent,]).createShader(
-                                      Rect.fromLTWH(5, 5, bounds.width, bounds.height),
-                                    ),
-                                    child:
-                                    // Text(
-                                    //   'Ask Gemini',
-                                    //   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 50,),
-                                    // ),
-                                    AnimatedBuilder(animation: _progressAnimation,
-                                        builder: (BuildContext context, Widget? child){
-                                          double t = _progressAnimation.value;
-                                          return Center(
-                                              child: DecoratedShadowedShape(
-                                                decoration:
-                                                BoxDecoration(color: Colors.amberAccent),
-                                                shape: _shapeTween.lerp(t),
-                                                child: Container(
-                                                  width: 100,
-                                                  height: 100,
-                                                ),
-                                              ));
-                                        })
-                                ),
-                              );
-                            },
+                          ShaderMask(
+                            blendMode: BlendMode.srcIn,
+                            shaderCallback: (bounds) => LinearGradient(
+                                colors:
+                                [Colors.purpleAccent,Colors.blueAccent,],
+                                stops: [0.4,0.6]
+                            ).createShader(
+                              Rect.fromLTWH(0, 0, bounds.width, bounds.height),
+                            ),
+                            child:AnimatedBuilder(
+                              animation: _scaleAnimation,
+                              builder: (BuildContext context, Widget? child) {
+                                return Transform.scale(
+                                  scale: _scaleAnimation.value,
+                                  child: ValueListenableBuilder(
+                                    valueListenable: listenable,
+                                    builder: (BuildContext context, value, Widget? child) {
+                                      return AnimatedRotation(
+                                        turns: value,
+                                        duration: const Duration(milliseconds: 100),
+                                        child:
+                                            // Text(
+                                            //   'Ask Gemini',
+                                            //   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 50,),
+                                            // ),
+                                            AnimatedBuilder(animation: _progressAnimation,
+                                                builder: (BuildContext context, Widget? child){
+                                                  double t = _progressAnimation.value;
+                                                  return Center(
+                                                      child: DecoratedShadowedShape(
+                                                        decoration:
+                                                        BoxDecoration(color: Colors.amberAccent),
+                                                        shape: _shapeTween.lerp(t),
+                                                        child: SizedBox(
+                                                          width: 100,
+                                                          height: 100,
+                                                        ),
+                                                      ));
+                                                })
+                                        );
+                                    },
+                                  ),
+                                );
+                              },
+                            ),
                           ),
+                          MouseRegion(
+                            onEnter: (e){
+                              setState(() {
+                                onHover = true;
+                                _scaleController.forward();
+                                _rotateController.forward();
+                              });
+                            },
+                            onExit: (e){
+                              setState(() {
+                                _scaleController.reverse();
+                                _rotateController.reverse();
+                                onHover = false;
+                              });
+                            },
+                            child: AnimatedBuilder(
+                                animation: _rotateAnimation,
+                              builder: (BuildContext context, Widget? child) {
+                                  return Transform.rotate(angle: _rotateAnimation.value * pi / 360,
+                                    child:  Image(width:45,height:45,image: AssetImage('assets/images/gemini.png'),
+                                      color: onHover?Colors.white:(!isDark?Colors.black:Colors.white),),
+                                  );
+                              },
 
-                          Container(
-                            height: 50,
-                            width: 50,
-                            child: Image(image: AssetImage('assets/images/gemini.png'),color: Colors.white,),
+                            )
+                          ),
+                          //
 
-                          )
                         ],
                       ),
                     ),
