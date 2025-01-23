@@ -20,6 +20,7 @@ void main() {
   Gemini.init(
     apiKey:
     const String.fromEnvironment('apiKey'),
+    // 'AIzaSyDCFV71r01TxALzexSeUU2ipoSoK2NxI7U',
     enableDebugging: true,
   );
   runApp(
@@ -136,6 +137,10 @@ class _Task2State extends State<Task2> with TickerProviderStateMixin{
   late AnimationController _scaleController;
   late Animation _rotateAnimation;
   late AnimationController _rotateController;
+  late AnimationController _gradientController;
+  late Animation<Alignment> _topAnim;
+  late Animation<Alignment> _bottomAnim;
+
   @override
   void initState() {
     super.initState();
@@ -154,6 +159,10 @@ class _Task2State extends State<Task2> with TickerProviderStateMixin{
       duration: Duration(seconds: 1),
       reverseDuration: Duration(milliseconds: 500)
     );
+    _gradientController = AnimationController(
+      vsync: this,
+      duration: Duration(seconds: 4),
+    );
 
     _progressAnimation = Tween(begin: 0.0, end: 1.0)
         .animate(CurvedAnimation(parent: _controller, curve: Curves.easeInOutCubic));
@@ -161,6 +170,45 @@ class _Task2State extends State<Task2> with TickerProviderStateMixin{
         .animate(CurvedAnimation(parent: _scaleController, curve: Curves.easeInOut, reverseCurve: Curves.easeInOut));
     _rotateAnimation = Tween(begin: 0.0, end: 360.0)
         .animate(CurvedAnimation(parent: _rotateController, curve: Curves.easeInOut, reverseCurve: Curves.easeInOut));
+
+    _topAnim = TweenSequence<Alignment>([
+      TweenSequenceItem<Alignment>(
+          tween: Tween<Alignment>(begin: Alignment.topLeft,end: Alignment.topRight),
+          weight: 1
+      ),
+      TweenSequenceItem<Alignment>(
+          tween: Tween<Alignment>(begin: Alignment.topRight,end: Alignment.bottomRight),
+          weight: 1
+      ),
+      TweenSequenceItem<Alignment>(
+          tween: Tween<Alignment>(begin: Alignment.bottomRight,end: Alignment.bottomLeft),
+          weight: 1
+      ),
+      TweenSequenceItem<Alignment>(
+          tween: Tween<Alignment>(begin: Alignment.bottomLeft,end: Alignment.topLeft),
+          weight: 1
+      ),
+    ]).animate(_gradientController);
+    _bottomAnim = TweenSequence<Alignment>([
+      TweenSequenceItem<Alignment>(
+          tween: Tween<Alignment>(begin: Alignment.bottomRight,end: Alignment.bottomLeft),
+          weight: 1
+      ),
+      TweenSequenceItem<Alignment>(
+          tween: Tween<Alignment>(begin: Alignment.bottomLeft,end: Alignment.topLeft),
+          weight: 1
+      ),
+      TweenSequenceItem<Alignment>(
+          tween: Tween<Alignment>(begin: Alignment.topLeft,end: Alignment.topRight),
+          weight: 1
+      ),
+      TweenSequenceItem<Alignment>(
+          tween: Tween<Alignment>(begin: Alignment.topRight,end: Alignment.bottomRight),
+          weight: 1
+      ),
+    ]).animate(_gradientController);
+
+    _gradientController.repeat();
 
     _setNextTween();
 
@@ -364,51 +412,58 @@ class _Task2State extends State<Task2> with TickerProviderStateMixin{
                       Stack(
                         alignment: AlignmentDirectional.center,
                         children: [
-                          ShaderMask(
-                            blendMode: BlendMode.srcIn,
-                            shaderCallback: (bounds) => LinearGradient(
-                                colors:
-                                [Colors.purpleAccent,Colors.blueAccent,],
-                                stops: [0.4,0.6]
-                            ).createShader(
-                              Rect.fromLTWH(0, 0, bounds.width, bounds.height),
-                            ),
-                            child:AnimatedBuilder(
-                              animation: _scaleAnimation,
-                              builder: (BuildContext context, Widget? child) {
-                                return Transform.scale(
-                                  scale: _scaleAnimation.value,
-                                  child: ValueListenableBuilder(
-                                    valueListenable: listenable,
-                                    builder: (BuildContext context, value, Widget? child) {
-                                      return AnimatedRotation(
-                                        turns: value,
-                                        duration: const Duration(milliseconds: 100),
-                                        child:
-                                            // Text(
-                                            //   'Ask Gemini',
-                                            //   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 50,),
-                                            // ),
-                                            AnimatedBuilder(animation: _progressAnimation,
-                                                builder: (BuildContext context, Widget? child){
-                                                  double t = _progressAnimation.value;
-                                                  return Center(
-                                                      child: DecoratedShadowedShape(
-                                                        decoration:
-                                                        BoxDecoration(color: Colors.amberAccent),
-                                                        shape: _shapeTween.lerp(t),
-                                                        child: SizedBox(
-                                                          width: 100,
-                                                          height: 100,
-                                                        ),
-                                                      ));
-                                                })
-                                        );
-                                    },
-                                  ),
-                                );
-                              },
-                            ),
+                          AnimatedBuilder(
+                            animation: _controller,
+                            builder: (context, child) {
+                              return ShaderMask(
+                                blendMode: BlendMode.srcIn,
+                                shaderCallback: (bounds) => LinearGradient(
+                                  begin: _topAnim.value,
+                                    end: _bottomAnim.value,
+                                    colors:
+                                    [Colors.purpleAccent,Colors.blueAccent,],
+                                    stops: [0.4,0.6]
+                                ).createShader(
+                                  Rect.fromLTWH(0, 0, bounds.width, bounds.height),
+                                ),
+                                child:AnimatedBuilder(
+                                  animation: _scaleAnimation,
+                                  builder: (context, child) {
+                                    return Transform.scale(
+                                      scale: _scaleAnimation.value,
+                                      child: ValueListenableBuilder(
+                                        valueListenable: listenable,
+                                        builder: (BuildContext context, value, Widget? child) {
+                                          return AnimatedRotation(
+                                            turns: value,
+                                            duration: const Duration(milliseconds: 100),
+                                            child:
+                                                // Text(
+                                                //   'Ask Gemini',
+                                                //   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 50,),
+                                                // ),
+                                                AnimatedBuilder(animation: _progressAnimation,
+                                                    builder: (context, child){
+                                                      double t = _progressAnimation.value;
+                                                      return Center(
+                                                          child: DecoratedShadowedShape(
+                                                            decoration:
+                                                            BoxDecoration(color: Colors.amberAccent),
+                                                            shape: _shapeTween.lerp(t),
+                                                            child: SizedBox(
+                                                              width: 100,
+                                                              height: 100,
+                                                            ),
+                                                          ));
+                                                    })
+                                            );
+                                        },
+                                      ),
+                                    );
+                                  },
+                                ),
+                              );
+                            }
                           ),
                           MouseRegion(
                             onEnter: (e){
